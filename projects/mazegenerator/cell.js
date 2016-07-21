@@ -2,9 +2,6 @@ function Cell(x,y){
     this.x = x;
     this.y = y;
 
-    this.i = x * w;
-    this.j = y * w;
-
     this.walls = [true,true,true,true];
 
     this.visited = false;
