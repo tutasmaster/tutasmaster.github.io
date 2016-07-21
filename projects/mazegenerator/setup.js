@@ -20,6 +20,7 @@ var nColor = "#000000";
 var cColor = "#FF00FF";
 
 function setup(){
+  stack = [];
   clearInterval(INTERVAL);
   HEIGHT = document.getElementById('height').value;
   WIDTH = document.getElementById("width").value;
