@@ -48,6 +48,9 @@ function draw() {
     //If not then declare the maze finishe by setting the current Cell as null
     }else{
         current = null;
+
+        grid[gridRandA].walls[0] = false;
+        grid[index(gridRandB,rows-1)].walls[2] = false;
     }
 }
 

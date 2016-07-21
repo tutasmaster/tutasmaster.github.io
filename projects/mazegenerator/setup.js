@@ -7,8 +7,9 @@ var entranceExit = false;
 var HEIGHT = 400;
 var WIDTH = 400;
 var fps = 5;
-var INTERVAL;
 var canvas,ctx;
+
+var INTERVAL;
 
 //Maze Variables
 var cols, rows;
@@ -16,6 +17,9 @@ var w = 10;
 var grid = [];
 var current;
 var stack = [];
+
+var gridRandA;
+var gridRandB;
 
 //Maze Colors
 var vColor = "#FFFFFF"; /*Visited Color*/
@@ -31,7 +35,6 @@ function setup(){
   //Clear the last generation
   grid = [];
   stack = [];
-  clearInterval(INTERVAL);
 
   //Get the display variables through the inputs
   HEIGHT = document.getElementById('height').value;
@@ -50,6 +53,9 @@ function setup(){
   cols = Math.floor(WIDTH/w);
   rows = Math.floor(HEIGHT/w);
 
+  gridRandA = Math.floor(Math.random() * cols);
+  gridRandB = Math.floor(Math.random() * cols);
+
   //Create the grid
   for(var j = 0; j < rows; j++){
     for(var i = 0; i < cols; i++){
@@ -62,5 +68,10 @@ function setup(){
   current = grid[0];
 
   //Set the interval
-  var INTERVAL = setInterval(draw,1000/fps);
+  if(INTERVAL != undefined){
+    clearInterval(INTERVAL);
+    INTERVAL = setInterval(draw,1000/fps);
+  }else{
+    INTERVAL = setInterval(draw,1000/fps);
+  }
 }
