@@ -3,9 +3,29 @@
     <head>
         <title>Conway's Game of Life</title>
         <style>
-            canvas{border-style: groove}
+            canvas{
+                border-style: groove
+            }
         </style>
         <style>
+            h1 {
+                font-family: Impact, Charcoal, sans-serif;
+                font-size: 48px;
+                padding: none;
+                margin: none;
+                font-weight: normal;
+                text-shadow: 6px 6px #334455;
+            }
+
+            body {
+                background-image: url(background.jpg); 
+                text-decoration: none; 
+                background-color: #000000; 
+                color: white; 
+                text-align: center;
+                font-family: "Trebuchet MS", Helvetica, sans-serif
+            }
+
             button {
                 background-color: #112233;
                 border: none;
@@ -21,18 +41,17 @@
             input {
                 border: none;
                 margin: 0px 0px;
-                font-size: 24px;
-                height: 100%;
+                font-size: 20px;
             }
         </style>
     </head>
-    <body  style="background-color: #000000; color: white; text-align: center">
+    <body>
         <h1>Conway's Game of Life</h1>
         <canvas id="canvas" width="600" height="600"></canvas>
-        <div style="margin: 0 auto; font-size: 0px; background-color: #000000;">
-            <div id="main" align="center" style="margin: 0 auto; font-size: 0px; background-color: #112233; width: 500px; border: inset">
+        <div style="margin: 0 auto; font-size: 0px;">
+            <div id="main" align="center" style="margin: 0 auto; font-size: 0px; background-color: #112233; width: 500px; border: groove">
                 <br>
-                    <button type="button" onclick="clear()">Clear</button>
+                    <button type="button" onclick="clearMap()">Clear</button>
                     <button type="button" onclick="randomize()">Randomize</button>
                     <button type="button" onclick="iterate()">Iterate</button>
                     <button type="button" onclick="skip()">Skip</button>
@@ -41,15 +60,14 @@
                 <br>
                     <button type="button" onclick="loop()">Start</button>
                     <button type="button" onclick="stopLoop()">Stop</button>
-                    <input type="number" id="UPS" min="1" max="1000" value="30">Max UPS</input>
-                    Max UPS
+                    <input type="number" id="UPS" min="1" max="1000" value="4">Max UPS</input>
                 </br>
                 <br>
                     <p id="Running" style="color: #FFFFFF; font-size:24px"></p>
                     <button type="button" onclick="showSettings();">Extra Settings</button>
                 </br>
             </div>
-            <div id="settings" style="display: none;margin: 0 auto; font-size: 24px; background-color: #112233; width: 450px; border: inset">
+            <div id="settings" style="display: none;margin: 0 auto; font-size: 24px; background-color: #112233; width: 450px; border: groove">
                 <br align="center" style="text-align:center">
                     <table align="center" style="text-align:center">
                         <tr>
@@ -59,13 +77,18 @@
                             <th>Height</th>
                         </tr>
                         <tr>
-                            <th><input type="number" id="cols" min="5" max="100" value="60"></input></th>
-                            <th><input type="number" id="rows" min="5" max="100" value="60"></input></th>
+                            <th><input type="number" id="cols" min="5" max="100" value="30"></input></th>
+                            <th><input type="number" id="rows" min="5" max="100" value="30"></input></th>
                             <th><input type="number" id="width" min="100" max="1000" value="600"></input></th>
                             <th><input type="number" id="height" min="100" max="1000" value="600"></input></th>
-                    <table>
+                    </table>
+                    <br>
+                    <input type="checkbox" id="circle" checked="true">Circle Cells</input>
+                    <input type="checkbox" id="grid" checked="true">Grid</input>
+                    </br>
+                    <br>
                     <button type="button" onclick="start()">Confirm</button>
-                </br>
+                    </br>
             </div>
         </div>
         <!--<button type="button" onclick="settings()">Confirm Settings</button>
@@ -82,6 +105,7 @@
                               [-1, 1],[0 , 1],[1 , 1]];
             
             var args = {
+                grid : true,
                 circle : true,
                 wrap : false,
                 colorBG : "#112233",
@@ -247,11 +271,13 @@
                 }
 
                 //To fix for overlaps
-                Canvas.setLineColor(args.colorGrid);
-                for(var i = 0; i < World.width; i++){
-                    for(var j = 0; j < World.height; j++){
-                        Canvas.drawLine(j*width,0,j*width,Canvas.height);
-                        Canvas.drawLine(0,i*width,Canvas.height,i*width);
+                if(args.grid){
+                    Canvas.setLineColor(args.colorGrid);
+                    for(var i = 0; i < World.width; i++){
+                        for(var j = 0; j < World.height; j++){
+                            Canvas.drawLine(j*width,0,j*width,Canvas.height);
+                            Canvas.drawLine(0,i*width,Canvas.height,i*width);
+                        }
                     }
                 }
             }
@@ -273,7 +299,7 @@
                 drawGrid();
             }
 
-            function clear(){
+            function clearMap(){
                 World.clear();
                 drawGrid();
             }
@@ -313,9 +339,13 @@
                 args.worldWidth = document.getElementById("cols").value;
                 args.worldHeight = document.getElementById("rows").value;
                 
+                args.circle = document.getElementById("circle").checked;
+                args.grid = document.getElementById("grid").checked;
+                
                 Canvas.setUp();
                 World.setUp();
-                drawGrid();
+
+                Canvas.clear();
             }
 
             //Events
