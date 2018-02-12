@@ -2,12 +2,106 @@
 <html>
     <head>
 		<title>TutasMaster</title>
+		<style>
+			body {
+				background-color: black;
+				color: white;
+			}
+			h1 {
+				font-family: "Courier New", Courier, monospace;
+				text-shadow: 4px 2px #000;
+				color: #FFF;
+			}
+			
+			h3 {
+				font-family: "Courier New", Courier, monospace;
+				text-shadow: 4px 2px #335577;
+				margin: 0;
+				color: #FFF;
+			}
+			
+			img {
+				border-radius: 50%;
+			}
+			
+			img:hover {
+				box-shadow: 0 0 2px 2px rgba(255, 255, 255, .5);
+			}
+			
+			th {
+				font-family: "Courier New", Courier, monospace;
+				color: #BB7744;
+			}
+			
+			a : link{
+				color: #FFDDAA;
+			}
+			
+			a:visited {
+				color: #FFDDAA;
+			}
+			
+			a :hover {
+				color: #FFF;
+			}
+			
+			a:active {
+				color: #FFF;
+			}
+			
+			#title {
+				background: -moz-linear-gradient(top, #333355 0%,#222244 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top, #333355 0%,#222244 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom, #282850 0%,#333355 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			}
+			
+			#pj tr:hover {
+				background-color:#402211;
+			}
+			
+		</style>
 	</head>
 	<body>
-		<a href="./projects/mazegenerator/mazeindex.html">Depth-First Search Maze Generator</a>
-		<br>
-		<a href="./projects/cgol/index.html">Conway's Game of Life</a>
-		<br>
-		<a href="./projects/typegenerator/index.html">Pokemon Type Avatar Generator</a>
-    </body>
+		<div align="center">
+			
+			<table id="pj" border="3px solid white" style="background-color: #332722; border-collapse: collapse;">
+				<tr><th id="title" style="background-color: #333344" colspan="2"><h1>TutasMaster</h1></th></tr>
+				<tr><th colspan="2" style="background-color: #000"><a href="https://github.com/tutasmaster"><img src="https://avatars2.githubusercontent.com/u/20562339" width="100%"/></a></th></tr>
+			
+				<tr id="title" style="background-color: #112233"><th><h3 align="left">Projects</h3></th><th><h3 >LANG</h3></th></tr>
+				<tr>
+					<th align="left"><a href="./projects/mazegenerator/mazeindex.html">Depth-First Search Maze Generator</a></th>
+					<th align="center">JS</th>
+				</tr>
+				<tr>
+					<th align="left"><a href="./projects/cgol/index.html">Conway's Game of Life</a></th>
+					<th align="center">JS</th>
+				</tr>
+				<tr>
+					<th align="left"><a href="./projects/typegenerator/index.html">Pokemon Type Avatar Generator</a></th>
+					<th align="center">JS</th>
+				</tr>
+				<tr>
+					<th align="left"><a href="https://github.com/tutasmaster/Chip8Interpreter">Chip 8 Interpreter</a></th>
+					<th align="center">C++</th>
+				</tr>
+				<tr>
+					<th align="left"><a href="https://github.com/tutasmaster/Basic-Brainfuck-Interperter-C-">Brainfuck Interpreter</a></th>
+					<th align="center">C++</th>
+				</tr>
+				<tr>
+					<th align="left"><a href="https://github.com/tutasmaster/imageToASCIIpy">Image to ASCII</a></th>
+					<th align="center">PY</th>
+				</tr>
+				<tr>
+					<th align="left"><a href="https://github.com/tutasmaster/Sfml-FlappyBird">Flappy Bird</a></th>
+					<th align="center">C++</th>
+				</tr>
+				<tr>
+					<th align="left"><a href="https://github.com/tutasmaster/SimpleGridEditor">Grid Editor</a></th>
+					<th align="center">C++</th>
+				</tr>
+			</table>
+		</div>
+	</body>
 </html>
