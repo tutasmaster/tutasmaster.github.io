@@ -19,7 +19,7 @@
 				font-family: "Righteous", monospace;
 				margin: 0;
 				color: #FFF;
-				font-size: 25px;
+				font-size: 23px;
 			}
 			
 			img {
@@ -32,6 +32,7 @@
 			
 			th {
 				font-family: "Courier New", monospace;
+				font-size: 14px;
 				color: #FFEE80;
 			}
 			
@@ -74,7 +75,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	
-	<body width="100%" style="background-image:url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/NkzqDhfneildzktre/grunge-dark-background-4k-uhd_bhp1rbu___F0000.png)">
+	<body>
 		<div style="display: table; width:100%" align="center">
 			
 			<table id="pj" border="1px solid white; border-collapse: collapse;" style="background-color: 332722;">
@@ -87,6 +88,10 @@
 				$.getJSON("https://api.github.com/users/tutasmaster/repos", function(result){
 					$.each(result, function(i, field){
 						if(field.language != null){
+							switch (field.language) {
+								case "JavaScript":
+									field.language = "JS";
+							}
 							if(field.fork){
 								$("tbody:nth-of-type(2)").append("<tr><th align=\"left\"><a href=\"" + field.html_url + "\">" + field.name + "</a></th><th align=\"right\">" + field.language + "</th></tr> ");
 							}else{
