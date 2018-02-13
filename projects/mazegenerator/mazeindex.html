@@ -4,21 +4,101 @@
         <script src="setup.js"></script>
         <script src="cell.js"></script>
         <script src="draw.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
+		<style>			
+		#title {
+				background: -moz-linear-gradient(top,#225577 90%,#FFF 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top,#225577 90%,#FFF 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom,#225577 90%,#FFF 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		}
+		
+		#proj{
+			background-color:#302211;
+		}
+		
+					h1 {
+				font-family: "Righteous", monospace;
+				font-size: 40px;
+				font-weight: bolder;
+				margin: 10px 26px;
+				color: #FFF;
+			}
+			
+			h3 {
+				font-family: "Righteous", monospace;
+				margin: 0;
+				color: #FFF;
+				font-size: 23px;
+			}
+			
+			th {
+				font-family: "Courier New", monospace;
+				font-size: 14px;
+				color: #FFEE80;
+			}
+			
+			a:link{
+				color: #EEC570;
+			}
+			
+			a:visited {
+				color: #EEC570;
+			}
+			
+			a:hover {
+				color: #FFEE80;
+			}
+			
+			a:active {
+				color: #FFF;
+			}
+			
+			button {
+				font-family: "Courier New", monospace;
+				background-color: 302211;
+				border: 2px solid #FFEE80;
+				color: white;
+				padding: 5px 10px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 14px;
+				border-radius: 10px;    
+				-webkit-transition-duration: 0.4s;
+				transition-duration: 0.4s;
+			}
+			
+			button:hover {
+				background-color: #FFEE80;
+				color: black;
+			}
+		</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body>
-        This is a maze generator using the "Depth-first search" algorithm.<br/>
-        This was made by TutasMaster using javascript and canvas.
-        <br/>
-        <canvas id="mazeCanvas" width="400" height="400"></canvas>
-        <br/>
-        Remember that the squares are 10px by 10px so make sure to pick multiples of 10 on the width and height if you do not want to have a black line on the sides.
-        <br/>
-        Canvas width (bigger is slower):
-        <input type="number" id="width" name="width" min="1" max="1280" value="400"><br/> 
-        Canvas height (bigger is slower):
-        <input type="number" id="height" name="height" min="1" max="1280" value="400"><br/> 
-        Fps (smaller is less intensive but slower):
-        <input type="number" id="fps" name="fps" min="1" max="60" value="5"><br/>
-        <button type="button" onclick="setup()">Start Generation</button>
+	
+    <body style="background-color: black; color:white" >
+		<div align="center">
+		<table border="1px solid white; border-collapse: collapse;">
+			<tbody>
+				<tr id="title"><th><h1>Maze Generator</h1></th></tr>
+				<tr>
+				<th>
+				<canvas id="mazeCanvas" width="200" height="200"></canvas>
+				</th>
+				</tr>
+				<tr id="title">
+				<th><h3>Settings</h3></th>
+				</tr>
+				<tr>
+				<th id="proj">
+				FPS CAP:
+				<input type="number" id="fps" name="fps" min="1" max="60" value="60"><br/>
+				<button type="button" onclick="setup()">Start</button>
+				</th>
+				</tr>
+				<tr id="title"><th><a href="https://tutasmaster.github.io">HOME</a></th></tr>
+			</tbody>
+		</table>
+		</div>
     </body>
 </html>
