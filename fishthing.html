@@ -1,0 +1,44 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<h1 id="gen"></h1>
+<script>
+var fn = new Array();
+var n = new Array();
+var adj = new Array();
+
+var a = false;
+var b = false;
+var c = false;
+
+
+$.get("https://tutasmaster.github.io/fish-names.txt", function(result){
+	fn = result.split('\n');
+	console.log(fn[0]);
+	a = true;
+});
+
+$.get("https://tutasmaster.github.io/nations.txt", function(result){
+	n = result.split('\n');
+	console.log(n[0]);
+	b = true;
+});
+
+$.get("https://tutasmaster.github.io/adjectives.txt", function(result){
+	adj = result.split('\n');
+	console.log(adj[0]);
+	c = true;
+});
+</script>
+
+<script>
+    setTimeout(function () {
+            document.getElementById("gen").innerHTML = adj[Math.floor(Math.random()*adj.length)].toLowerCase() + n[Math.floor(Math.random()*n.length)].toLowerCase() + fn[Math.floor(Math.random()*fn.length)].toLowerCase();
+    }, 1000);
+	
+</script>
+<button type="button" onclick=""></button>
+</body>
+</html>
