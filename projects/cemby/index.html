@@ -35,9 +35,14 @@
         <p>Eye Color</p>
         <input id="eyehue" type="range" min="-180" max="180" value="0" style="width: 256" onchange="load()">
         <p>Eye Saturation</p>
-        <input id="eyesat" type="range" min="-180" max="180" value="0" style="width: 256" onchange="load()"></br>
+        <input id="eyesat" type="range" min="-100" max="100" value="0" style="width: 256" onchange="load()"></br>
+        <p>Skin Color</p>
+        <input id="skinhue" type="range" min="-180" max="180" value="0" style="width: 256" onchange="load()">
+        <p>Skin Saturation</p>
+        <input id="skinsat" type="range" min="-100" max="100" value="0" style="width: 256" onchange="load()"></br>    
         </br><p>To get the image, just RIGHT-CLICK it and pick "Save image as..."</p>
-        <p>It's that easy!!!</p>
+        <p>It's that easy!!!</p></br></br></br>
+        <p>Send pissember pics to Tutas#1325 on discord</p>
         <script>
             var canvas = document.getElementById("canvas");
             canvas.height = 256;
@@ -62,12 +67,16 @@
 
                 let val = parseInt(document.getElementById("hue").value);
                 let eyeVal = parseInt(document.getElementById("eyehue").value);
+                let skinVal = parseInt(document.getElementById("skinhue").value);
                 let sat = parseInt(document.getElementById("sat").value);
                 let deSat = sat < 0 ? Math.abs(sat) : 0;
                 sat = sat < 0 ? 0 : sat;
                 let eyeSat = parseInt(document.getElementById("eyesat").value);
                 let eyeDeSat = eyeSat < 0 ? Math.abs(eyeSat) : 0;
                 eyeSat = eyeSat < 0 ? 0 : eyeSat;
+                let skinSat = parseInt(document.getElementById("skinsat").value);
+                let skinDeSat = skinSat < 0 ? Math.abs(skinSat) : 0;
+                skinSat = skinSat < 0 ? 0 : skinSat;
                 var ctx = canvas.getContext("2d");
                 
                 await hairEmber.mask(hairMask,0,0);
@@ -82,7 +91,11 @@
                     { apply: 'saturate', params: [eyeSat]},
                     { apply: 'desaturate', params: [eyeDeSat]}
                 ]);
-                
+                await ember.color([
+                    { apply: 'hue', params: [skinVal] },
+                    { apply: 'saturate', params: [skinSat]},
+                    { apply: 'desaturate', params: [skinDeSat]}
+                ]);
                 ember
                 .composite(hairEmber, 0, 0)
                 .composite(eyeEmber, 0, 0)
