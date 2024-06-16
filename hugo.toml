@@ -1,4 +1,71 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+title = 'Tutas'
+theme = 'hello-4s3ti'
+paginate  = 20
+
+[params]
+  dateform        = "2 Jan 2006"
+  dateformShort   = "2 Jan"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  #homeSubtitle = "A simple and beautiful webpage"
+
+  showPosts = true
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+  socialIcons = true
+  # Metadata mostly used in document's head
+  description = "My new webpage"
+  keywords = "homepage, blog"
+  images = [""]
+  backgroundImage = "/bg.png"
+  backgroundEffects = true
+  [[params.social]]
+    name = "github"
+    url = "tutasmaster"
+  [[params.social]]
+    name = "itch-io"
+    url = "tutasmaster"
+  [params.fontawesome]
+    kitURL = "https://kit.fontawesome.com/002b935fe4.js"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Tutas"
+    subtitle = "A simple website"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Tutas"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "art"
+    name       = "Art"
+    url        = "/art"
+  [[menu.main]]
+    identifier = "sketch"
+    name       = "Sketches"
+    url        = "/sketch"
+  [[menu.main]]
+    identifier = "old"
+    name       = "Old Website"
+    url        = "/_bak"

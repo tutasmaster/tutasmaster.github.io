@@ -1,0 +1,36 @@
+{{ define "main" }}
+    {{ $paginator := .Paginate .Data.Pages }}
+    
+    <main class="posts" style="max-width: 1400px;">
+        <h1>{{ .Title }}</h1>
+
+        {{ if .Content }}
+            <div class="content">{{ .Content }}</div>
+        {{ end }}
+
+        {{ range $paginator.Pages.GroupByDate "2006" }}
+            <div class="posts-group">
+                <div class="post-year">{{ .Key }}</div>
+                <div class="art-group">
+                    {{ range .Pages }}
+                    {{ $image := resources.Get (printf "images/%s" .Params.featuredImage)}}
+                        {{ if .Params.featuredImage }}
+                        <a href="{{ $image.RelPermalink }}">
+                        <figure class="featured-image">
+                            
+                            {{ $image := $image.Fit "600x400" }}
+                            {{ with $image }}
+                                <img src="{{ .RelPermalink }}">
+                            {{ end }}
+                            <!--<img src="/{{.Params.featuredImage}}"/>-->
+                        </figure>
+                        </a>
+                        {{end}}
+                    {{ end }}
+                </div>
+            </div>
+        <hr />
+        {{ end }}
+    {{ partial "pagination-list.html" . }}
+    </main>
+{{ end }}
