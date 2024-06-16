@@ -1,0 +1,60 @@
+<html>
+<body style= "background-color: black; text-align: center;" >
+<img src="Logo.jpg" style="width:80%;"></img>
+<h3 style="color:white">Press F5 to generate more teams.</h3>
+<p>
+<div id="body" style="font-family: Impact; display: block; column-count: 5; text-align: center;">
+<script>
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+
+var arr = []
+var types = ["Steel","Bug","Dark","Dragon","Electric","Fairy","Fighting","Fire","Flying","Ghost","Grass","Ground","Psychic","Ice","Normal","Poison","Rock","Water","Unknown"]
+for (var i = 0; i < 18; i++)
+{
+	arr[i] = i;
+	
+}
+
+arr = shuffle(arr);
+console.log(arr);
+
+for (var i = 0; i < 18; i++){
+	var src = document.getElementById("body");
+	var n = arr[i];
+	if(i % 4 == 0){
+		randomIndex = Math.floor(Math.random() * 18);
+		var ico = document.createElement("img");
+		ico.src = types[arr[i]] + ".png";
+		ico.style.height = '15%';
+		src.appendChild(ico);
+	}
+	var p = document.createElement("p");
+	src.appendChild(p);
+	var img = document.createElement("img");
+	img.src = arr[i] + ".png";
+	img.style.width = '75%';
+	src.appendChild(img);
+	var p = document.createElement("p");
+	src.appendChild(p);
+}
+</script>
+</div>
+</body>
+</html>

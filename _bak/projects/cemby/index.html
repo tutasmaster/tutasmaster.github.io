@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>CEmber Generator</title>
+        <style>
+            body{
+                background-color: #222;
+                text-align: center;
+                padding-top: 50px;
+            }
+            p {
+                font-family: Consolas;
+                color: white;
+                margin: 2px;
+            }
+            h1, h2, h3{
+                font-family: Consolas;
+                color: white;
+                margin: 5px;
+            }
+            h1{
+                font-size: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/gh/oliver-moran/jimp@v0.2.27/browser/lib/jimp.min.js"></script>
+        <h1>M.Y.C.E.</h1></br>
+        <h2>Make Your Own ColdEmber</h2>
+        <p>your own cemby bemby cold ember bember uwu~~</p></br></br>
+        <canvas id="canvas" style="background-color: #FF00FF;"></canvas></br>
+        <p>Hair Color</p>
+        <input id="hue" type="range" min="-180" max="180" value="0" style="width: 256" onchange="load()">
+        <p>Hair Saturation</p>
+        <input id="sat" type="range" min="-100" max="100" value="0" style="width: 256" onchange="load()">
+        <p>Eye Color</p>
+        <input id="eyehue" type="range" min="-180" max="180" value="0" style="width: 256" onchange="load()">
+        <p>Eye Saturation</p>
+        <input id="eyesat" type="range" min="-100" max="100" value="0" style="width: 256" onchange="load()"></br>
+        <p>Skin Color</p>
+        <input id="skinhue" type="range" min="-180" max="180" value="0" style="width: 256" onchange="load()">
+        <p>Skin Saturation</p>
+        <input id="skinsat" type="range" min="-100" max="100" value="0" style="width: 256" onchange="load()"></br>    
+        </br><p>To get the image, just RIGHT-CLICK it and pick "Save image as..."</p>
+        <p>It's that easy!!!</p></br>
+        <script>
+            var canvas = document.getElementById("canvas");
+            canvas.height = 256;
+            canvas.width = 256;
+            canvas.style.border = "1px solid";
+
+            var ember, hairEmber, eyeEmber, mask, hairMask, eyeMask;
+            load()
+            async function load(){
+                ember = await Jimp.read("ember.png");
+                hairEmber = await Jimp.read("ember.png");
+                eyeEmber = await Jimp.read("ember.png");
+                mask = await Jimp.read("mask.png");
+                hairMask = await Jimp.read("hairmask.png");
+                eyeMask = await Jimp.read("eyemask.png")
+                await ember.resize(256,256);
+                await hairEmber.resize(256,256);
+                await eyeEmber.resize(256,256);
+                await mask.resize(256,256);
+                await hairMask.resize(256,256);
+                await eyeMask.resize(256,256);
+
+                let val = parseInt(document.getElementById("hue").value);
+                let eyeVal = parseInt(document.getElementById("eyehue").value);
+                let skinVal = parseInt(document.getElementById("skinhue").value);
+                let sat = parseInt(document.getElementById("sat").value);
+                let deSat = sat < 0 ? Math.abs(sat) : 0;
+                sat = sat < 0 ? 0 : sat;
+                let eyeSat = parseInt(document.getElementById("eyesat").value);
+                let eyeDeSat = eyeSat < 0 ? Math.abs(eyeSat) : 0;
+                eyeSat = eyeSat < 0 ? 0 : eyeSat;
+                let skinSat = parseInt(document.getElementById("skinsat").value);
+                let skinDeSat = skinSat < 0 ? Math.abs(skinSat) : 0;
+                skinSat = skinSat < 0 ? 0 : skinSat;
+                var ctx = canvas.getContext("2d");
+                
+                await hairEmber.mask(hairMask,0,0);
+                await hairEmber.color([
+                    { apply: 'hue', params: [val] },
+                    { apply: 'saturate', params: [sat]},
+                    { apply: 'desaturate', params: [deSat]}
+                ]);
+                await eyeEmber.mask(eyeMask,0,0);
+                await eyeEmber.color([
+                    { apply: 'hue', params: [eyeVal] },
+                    { apply: 'saturate', params: [eyeSat]},
+                    { apply: 'desaturate', params: [eyeDeSat]}
+                ]);
+                await ember.color([
+                    { apply: 'hue', params: [skinVal] },
+                    { apply: 'saturate', params: [skinSat]},
+                    { apply: 'desaturate', params: [skinDeSat]}
+                ]);
+                ember
+                .composite(hairEmber, 0, 0)
+                .composite(eyeEmber, 0, 0)
+                //.mask(mask,0,0)
+                    .getBase64(Jimp.MIME_PNG, function (err, src) {
+                        var img = new Image();
+                        img.onload = function() {
+                            ctx.drawImage(img, 0, 0);
+                        };
+                        img.src = src;
+                        
+                    });
+            }
+        </script>
+        </br>
+
+    </body>
+</html>

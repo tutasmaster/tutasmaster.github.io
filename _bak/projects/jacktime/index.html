@@ -1,0 +1,76 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <script>
+        function getRadioVal(form, name) {
+            var val;
+            // get list of radio buttons with specified name
+            var radios = form.elements[name];
+
+            // loop through list of radio buttons
+            for (var i=0, len=radios.length; i<len; i++) {
+                if ( radios[i].checked ) { // radio checked?
+                    val = radios[i].value; // if so, hold its value in val
+                    break; // and break out of for loop
+                }
+            }
+            return val; // return value of checked radio or undefined if none checked
+        }
+            
+        function calculateValue(){
+            var name = getRadioVal(document.getElementById("name"),"name")
+            var text = getRadioVal(document.getElementById("text"),"text")
+            var h = document.getElementById("hours").value;
+            var m = document.getElementById("minutes").value;
+            var final = ""
+            var otherSide = ""
+            var timeScale = 0.0;
+            
+            if     (name == "Jackojc"   ){final += "Your common Jack"    }
+            else if(name == "Jackass"   ){final += "You precious Jackass"}
+            else if(name == "JackieChan"){final += "The karate master"   }
+            
+            if     (text == "BRB"       ){final += " will take around "; timeScale = 2; otherSide = " to come back."}
+            else if(text == "Tea"       ){final += " will finish his tea in around "; timeScale = 4; otherSide = " after 5 o' clock."}
+            else if(text == "Call"      ){final += " will stop yapping at the phone in about "; timeScale = 8; otherSide = " or when his battery dies."   }
+            else if(text == "CSGO"      ){final += " will not be joining you for atleast "; timeScale = 7; otherSide = ". Can this mean productivity at last?"}
+            
+            var hours = (h * timeScale) + (Math.floor((m * timeScale)/60))
+            var minutes = (m * timeScale) % 60
+            
+
+            
+            final += hours + " hours and " + minutes + " minutes"
+            
+            
+            document.getElementById("final").innerHTML = final + otherSide
+            
+        } 
+        </script>
+        <div>
+            <h1>Welcome to the Jack to Real Time calculator</h1>
+            <b>Please enter the name you most associate with your Jack.</b>
+            <form id="name">
+                <input type="radio" name="name" value="Jackojc" checked="true"> Jackojc<br>
+                <input type="radio" name="name" value="Jackass"> Jackass<br>
+                <input type="radio" name="name" value="JackieChan"> Jackie Chan
+            </form>
+            <b>Please proceed by choosing what he said.</b>
+            <form id="text">
+                <input type="radio" name="text" value="BRB" checked="true"> BRB for X.<br>
+                <input type="radio" name="text" value="Tea"> Gonna drink tea, be back in X.<br>
+                <input type="radio" name="text" value="Call"> Gonna take a phone call, BRB in X.<br>
+                <input type="radio" name="text" value="CSGO"> I just got banned in CSGO for X.
+            </form>
+            <b>Now, please input the time he claims to take.</b><br>
+            <b>Hours:</b><input id="hours" type="number" value="0" max=23 min=0 style="min-width:69px"><br>
+            <b>Minute:</b><input id="minutes" type="number" value="5" max=59 min=0>
+            <br>
+            <button onclick="calculateValue()">Calculator </button>
+            <br>
+            <b id="final"></b>
+        </div>
+    </body>
+</html>
