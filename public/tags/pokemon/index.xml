@@ -14,14 +14,14 @@
       <link>http://localhost:1313/art/</link>
       <pubDate>Sun, 16 Jun 2024 16:03:05 +0100</pubDate>
       <guid>http://localhost:1313/art/</guid>
-      <description>Pieces that took effort.</description>
+      <description>Cool things that took effort.&#xA;For low effort content check out sketches!</description>
     </item>
     <item>
       <title>Sketches</title>
       <link>http://localhost:1313/sketch/</link>
       <pubDate>Sun, 16 Jun 2024 16:03:05 +0100</pubDate>
       <guid>http://localhost:1313/sketch/</guid>
-      <description>Unfinished projects. Interesting pictures. Stuff of the sort.</description>
+      <description>Unfinished projects and quick pictures.&#xA;The stuff I am not as proud to show off.</description>
     </item>
     <item>
       <title>Wooper maid</title>

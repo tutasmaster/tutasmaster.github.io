@@ -15,4 +15,4 @@ date = "2014-04-09"
 
 [Conway's Game of Life](/_bak/projects/cgol/)
 
-[Maze Generator](/_bak/projects/mazegenerator/mazeindex.html/)
+[Maze Generator](/_bak/projects/mazegenerator/mazeindex.html)
