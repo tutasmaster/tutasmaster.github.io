@@ -28,10 +28,10 @@ paginate  = 20
   backgroundEffects = true
   [[params.social]]
     name = "github"
-    url = "tutasmaster"
+    url = "https://github.com/tutasmaster"
   [[params.social]]
     name = "itch-io"
-    url = "tutasmaster"
+    url = "https://tutasmaster.itch.io"
   [params.fontawesome]
     kitURL = "https://kit.fontawesome.com/002b935fe4.js"
 

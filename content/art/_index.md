@@ -18,4 +18,7 @@ weight: 20
 featuredImage: "/wooper.png"
 ---
 
-Pieces that took effort.
+Cool things that took effort.
+
+For low effort content check out [sketches](/sketch)!
+

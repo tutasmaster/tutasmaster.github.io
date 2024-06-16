@@ -18,4 +18,7 @@ weight: 20
 featuredImage: "/wooper.png"
 ---
 
-Unfinished projects. Interesting pictures. Stuff of the sort.
+Unfinished projects and quick pictures.
+
+
+The stuff I am not as proud to [show off](/art).
