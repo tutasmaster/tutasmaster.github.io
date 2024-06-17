@@ -2,12 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Tutas</title>
-    <link>https://example.org/project/</link>
+    <link>http://localhost:1313/project/</link>
     <description>Recent content in Projects on Tutas</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://example.org/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Feb 2024 16:03:05 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Duat</title>
+      <link>http://localhost:1313/project/duat/</link>
+      <pubDate>Fri, 16 Feb 2024 16:03:05 +0100</pubDate>
+      <guid>http://localhost:1313/project/duat/</guid>
+      <description>Play it here.&#xA;3D Models and textures for environments.&#xA;First model for the snake boss fight.&#xA;Early version of the snake boss texture.&#xA;Final textured version of the snake boss.</description>
+    </item>
+    <item>
+      <title>gnUNO</title>
+      <link>http://localhost:1313/project/gnuno/</link>
+      <pubDate>Sat, 16 Dec 2023 16:03:05 +0100</pubDate>
+      <guid>http://localhost:1313/project/gnuno/</guid>
+      <description>Find it here!&#xA;Networked UNO game made in Godot using the built-in networking tools.&#xA;Running over ENET, using RPCs for synchronizing the UNO game state, and using Godot&amp;rsquo;s Network Synchronizer and Network Replicator for synchronizing hand movement.&#xA;First attempt at human looking model.&#xA;First multiplayer test, only the hands were moveable.&#xA;Close to final gameplay, with aesthetic touches.&#xA;Customization options.</description>
+    </item>
+    <item>
+      <title>olcPoker</title>
+      <link>http://localhost:1313/project/olcpoker/</link>
+      <pubDate>Thu, 17 Aug 2023 00:36:00 +0100</pubDate>
+      <guid>http://localhost:1313/project/olcpoker/</guid>
+      <description>Find it here!&#xA;Networked Poker game made in Godot using the built-in networking tools.&#xA;Running over ENET, using RPCs for synchronizing the whole game&amp;rsquo;s state.</description>
+    </item>
   </channel>
 </rss>
