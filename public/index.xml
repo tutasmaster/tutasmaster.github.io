@@ -2,487 +2,487 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Index on Tutas</title>
-    <link>http://localhost:1313/</link>
+    <link>https://example.org/</link>
     <description>Recent content in Index on Tutas</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sun, 16 Jun 2024 16:33:29 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wooper maid</title>
-      <link>http://localhost:1313/art/my-first-post/</link>
+      <link>https://example.org/art/my-first-post/</link>
       <pubDate>Sun, 16 Jun 2024 16:03:05 +0100</pubDate>
-      <guid>http://localhost:1313/art/my-first-post/</guid>
+      <guid>https://example.org/art/my-first-post/</guid>
       <description></description>
     </item>
     <item>
       <title>Woopers</title>
-      <link>http://localhost:1313/sketch/woopers/</link>
+      <link>https://example.org/sketch/woopers/</link>
       <pubDate>Sun, 16 Jun 2024 16:33:29 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/woopers/</guid>
+      <guid>https://example.org/sketch/woopers/</guid>
       <description></description>
     </item>
     <item>
       <title>Wizard</title>
-      <link>http://localhost:1313/sketch/cave/</link>
+      <link>https://example.org/sketch/cave/</link>
       <pubDate>Thu, 30 May 2024 16:44:01 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/cave/</guid>
+      <guid>https://example.org/sketch/cave/</guid>
       <description></description>
     </item>
     <item>
       <title>Wizard</title>
-      <link>http://localhost:1313/art/wizard/</link>
+      <link>https://example.org/art/wizard/</link>
       <pubDate>Thu, 16 May 2024 16:44:01 +0100</pubDate>
-      <guid>http://localhost:1313/art/wizard/</guid>
+      <guid>https://example.org/art/wizard/</guid>
       <description></description>
     </item>
     <item>
       <title>Wizard</title>
-      <link>http://localhost:1313/art/soapy/</link>
+      <link>https://example.org/art/soapy/</link>
       <pubDate>Sat, 16 Mar 2024 16:44:01 +0100</pubDate>
-      <guid>http://localhost:1313/art/soapy/</guid>
+      <guid>https://example.org/art/soapy/</guid>
       <description></description>
     </item>
     <item>
       <title>Snake</title>
-      <link>http://localhost:1313/art/snake/</link>
+      <link>https://example.org/art/snake/</link>
       <pubDate>Sat, 17 Feb 2024 00:33:25 +0100</pubDate>
-      <guid>http://localhost:1313/art/snake/</guid>
+      <guid>https://example.org/art/snake/</guid>
       <description></description>
     </item>
     <item>
       <title>Duat</title>
-      <link>http://localhost:1313/project/duat/</link>
+      <link>https://example.org/project/duat/</link>
       <pubDate>Fri, 16 Feb 2024 16:03:05 +0100</pubDate>
-      <guid>http://localhost:1313/project/duat/</guid>
+      <guid>https://example.org/project/duat/</guid>
       <description>Play it here.&#xA;3D Models and textures for environments.&#xA;First model for the snake boss fight.&#xA;Early version of the snake boss texture.&#xA;Final textured version of the snake boss.</description>
     </item>
     <item>
       <title>Window</title>
-      <link>http://localhost:1313/sketch/window/</link>
+      <link>https://example.org/sketch/window/</link>
       <pubDate>Fri, 29 Dec 2023 22:22:45 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/window/</guid>
+      <guid>https://example.org/sketch/window/</guid>
       <description></description>
     </item>
     <item>
       <title>gnUNO</title>
-      <link>http://localhost:1313/project/gnuno/</link>
+      <link>https://example.org/project/gnuno/</link>
       <pubDate>Sat, 16 Dec 2023 16:03:05 +0100</pubDate>
-      <guid>http://localhost:1313/project/gnuno/</guid>
+      <guid>https://example.org/project/gnuno/</guid>
       <description>Find it here!&#xA;Networked UNO game made in Godot using the built-in networking tools.&#xA;Running over ENET, using RPCs for synchronizing the UNO game state, and using Godot&amp;rsquo;s Network Synchronizer and Network Replicator for synchronizing hand movement.&#xA;First attempt at human looking model.&#xA;First multiplayer test, only the hands were moveable.&#xA;Close to final gameplay, with aesthetic touches.&#xA;Customization options.</description>
     </item>
     <item>
       <title>Hopsonbrain</title>
-      <link>http://localhost:1313/sketch/hopsonbrain/</link>
+      <link>https://example.org/sketch/hopsonbrain/</link>
       <pubDate>Sun, 03 Dec 2023 22:18:09 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/hopsonbrain/</guid>
+      <guid>https://example.org/sketch/hopsonbrain/</guid>
       <description></description>
     </item>
     <item>
       <title>Wizard</title>
-      <link>http://localhost:1313/art/eternie/</link>
+      <link>https://example.org/art/eternie/</link>
       <pubDate>Thu, 16 Nov 2023 16:44:01 +0100</pubDate>
-      <guid>http://localhost:1313/art/eternie/</guid>
+      <guid>https://example.org/art/eternie/</guid>
       <description></description>
     </item>
     <item>
       <title>Wizard</title>
-      <link>http://localhost:1313/art/gondola/</link>
+      <link>https://example.org/art/gondola/</link>
       <pubDate>Fri, 10 Nov 2023 16:44:01 +0100</pubDate>
-      <guid>http://localhost:1313/art/gondola/</guid>
+      <guid>https://example.org/art/gondola/</guid>
       <description></description>
     </item>
     <item>
       <title>May</title>
-      <link>http://localhost:1313/art/may/</link>
+      <link>https://example.org/art/may/</link>
       <pubDate>Sun, 01 Oct 2023 21:09:11 +0100</pubDate>
-      <guid>http://localhost:1313/art/may/</guid>
+      <guid>https://example.org/art/may/</guid>
       <description></description>
     </item>
     <item>
       <title>olcPoker</title>
-      <link>http://localhost:1313/project/olcpoker/</link>
+      <link>https://example.org/project/olcpoker/</link>
       <pubDate>Thu, 17 Aug 2023 00:36:00 +0100</pubDate>
-      <guid>http://localhost:1313/project/olcpoker/</guid>
+      <guid>https://example.org/project/olcpoker/</guid>
       <description>Find it here!&#xA;Networked Poker game made in Godot using the built-in networking tools.&#xA;Running over ENET, using RPCs for synchronizing the whole game&amp;rsquo;s state.</description>
     </item>
     <item>
       <title>Beaver</title>
-      <link>http://localhost:1313/art/beaver/</link>
+      <link>https://example.org/art/beaver/</link>
       <pubDate>Fri, 28 Jul 2023 21:09:23 +0100</pubDate>
-      <guid>http://localhost:1313/art/beaver/</guid>
+      <guid>https://example.org/art/beaver/</guid>
       <description></description>
     </item>
     <item>
       <title>Lucapon</title>
-      <link>http://localhost:1313/art/lucapon/</link>
+      <link>https://example.org/art/lucapon/</link>
       <pubDate>Fri, 30 Jun 2023 21:09:15 +0100</pubDate>
-      <guid>http://localhost:1313/art/lucapon/</guid>
+      <guid>https://example.org/art/lucapon/</guid>
       <description></description>
     </item>
     <item>
       <title>King2</title>
-      <link>http://localhost:1313/art/king2/</link>
+      <link>https://example.org/art/king2/</link>
       <pubDate>Wed, 26 Apr 2023 22:25:10 +0100</pubDate>
-      <guid>http://localhost:1313/art/king2/</guid>
+      <guid>https://example.org/art/king2/</guid>
       <description></description>
     </item>
     <item>
       <title>Rorona</title>
-      <link>http://localhost:1313/art/rorona/</link>
+      <link>https://example.org/art/rorona/</link>
       <pubDate>Wed, 29 Mar 2023 22:17:27 +0100</pubDate>
-      <guid>http://localhost:1313/art/rorona/</guid>
+      <guid>https://example.org/art/rorona/</guid>
       <description></description>
     </item>
     <item>
       <title>Jerma</title>
-      <link>http://localhost:1313/sketch/jerma/</link>
+      <link>https://example.org/sketch/jerma/</link>
       <pubDate>Mon, 20 Mar 2023 22:16:59 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/jerma/</guid>
+      <guid>https://example.org/sketch/jerma/</guid>
       <description></description>
     </item>
     <item>
       <title>Ghost</title>
-      <link>http://localhost:1313/art/ghost/</link>
+      <link>https://example.org/art/ghost/</link>
       <pubDate>Wed, 15 Mar 2023 22:22:02 +0100</pubDate>
-      <guid>http://localhost:1313/art/ghost/</guid>
+      <guid>https://example.org/art/ghost/</guid>
       <description></description>
     </item>
     <item>
       <title>Meatcube</title>
-      <link>http://localhost:1313/sketch/meatcube/</link>
+      <link>https://example.org/sketch/meatcube/</link>
       <pubDate>Tue, 14 Mar 2023 22:14:41 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/meatcube/</guid>
+      <guid>https://example.org/sketch/meatcube/</guid>
       <description></description>
     </item>
     <item>
       <title>Face2</title>
-      <link>http://localhost:1313/art/face2/</link>
+      <link>https://example.org/art/face2/</link>
       <pubDate>Sat, 04 Mar 2023 22:16:31 +0100</pubDate>
-      <guid>http://localhost:1313/art/face2/</guid>
+      <guid>https://example.org/art/face2/</guid>
       <description></description>
     </item>
     <item>
       <title>Delve</title>
-      <link>http://localhost:1313/sketch/delve/</link>
+      <link>https://example.org/sketch/delve/</link>
       <pubDate>Wed, 22 Feb 2023 01:35:29 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/delve/</guid>
+      <guid>https://example.org/sketch/delve/</guid>
       <description></description>
     </item>
     <item>
       <title>Cockroach</title>
-      <link>http://localhost:1313/sketch/cockroach/</link>
+      <link>https://example.org/sketch/cockroach/</link>
       <pubDate>Wed, 15 Feb 2023 01:35:33 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/cockroach/</guid>
+      <guid>https://example.org/sketch/cockroach/</guid>
       <description></description>
     </item>
     <item>
       <title>Batman</title>
-      <link>http://localhost:1313/art/batman/</link>
+      <link>https://example.org/art/batman/</link>
       <pubDate>Sun, 05 Feb 2023 20:01:01 +0100</pubDate>
-      <guid>http://localhost:1313/art/batman/</guid>
+      <guid>https://example.org/art/batman/</guid>
       <description></description>
     </item>
     <item>
       <title>Gesture</title>
-      <link>http://localhost:1313/sketch/gesture/</link>
+      <link>https://example.org/sketch/gesture/</link>
       <pubDate>Mon, 09 Jan 2023 01:29:33 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/gesture/</guid>
+      <guid>https://example.org/sketch/gesture/</guid>
       <description></description>
     </item>
     <item>
       <title>Slasheen</title>
-      <link>http://localhost:1313/art/slasheen/</link>
+      <link>https://example.org/art/slasheen/</link>
       <pubDate>Sat, 31 Dec 2022 20:59:15 +0100</pubDate>
-      <guid>http://localhost:1313/art/slasheen/</guid>
+      <guid>https://example.org/art/slasheen/</guid>
       <description></description>
     </item>
     <item>
       <title>Cember2</title>
-      <link>http://localhost:1313/sketch/cember2/</link>
+      <link>https://example.org/sketch/cember2/</link>
       <pubDate>Thu, 22 Dec 2022 01:35:40 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/cember2/</guid>
+      <guid>https://example.org/sketch/cember2/</guid>
       <description></description>
     </item>
     <item>
       <title>Captain</title>
-      <link>http://localhost:1313/sketch/captain/</link>
+      <link>https://example.org/sketch/captain/</link>
       <pubDate>Sun, 23 Oct 2022 01:35:43 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/captain/</guid>
+      <guid>https://example.org/sketch/captain/</guid>
       <description></description>
     </item>
     <item>
       <title>Bird</title>
-      <link>http://localhost:1313/art/bird/</link>
+      <link>https://example.org/art/bird/</link>
       <pubDate>Mon, 10 Oct 2022 20:59:47 +0100</pubDate>
-      <guid>http://localhost:1313/art/bird/</guid>
+      <guid>https://example.org/art/bird/</guid>
       <description></description>
     </item>
     <item>
       <title>Hopson2</title>
-      <link>http://localhost:1313/art/hopson2/</link>
+      <link>https://example.org/art/hopson2/</link>
       <pubDate>Thu, 15 Sep 2022 20:58:42 +0100</pubDate>
-      <guid>http://localhost:1313/art/hopson2/</guid>
+      <guid>https://example.org/art/hopson2/</guid>
       <description></description>
     </item>
     <item>
       <title>Guru</title>
-      <link>http://localhost:1313/art/guru/</link>
+      <link>https://example.org/art/guru/</link>
       <pubDate>Mon, 29 Aug 2022 21:04:03 +0100</pubDate>
-      <guid>http://localhost:1313/art/guru/</guid>
+      <guid>https://example.org/art/guru/</guid>
       <description></description>
     </item>
     <item>
       <title>Wizard</title>
-      <link>http://localhost:1313/art/lias2/</link>
+      <link>https://example.org/art/lias2/</link>
       <pubDate>Tue, 16 Aug 2022 16:44:01 +0100</pubDate>
-      <guid>http://localhost:1313/art/lias2/</guid>
+      <guid>https://example.org/art/lias2/</guid>
       <description></description>
     </item>
     <item>
       <title>Church</title>
-      <link>http://localhost:1313/sketch/church/</link>
+      <link>https://example.org/sketch/church/</link>
       <pubDate>Wed, 27 Jul 2022 01:29:30 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/church/</guid>
+      <guid>https://example.org/sketch/church/</guid>
       <description></description>
     </item>
     <item>
       <title>Wizard</title>
-      <link>http://localhost:1313/art/cat/</link>
+      <link>https://example.org/art/cat/</link>
       <pubDate>Sat, 16 Jul 2022 16:44:01 +0100</pubDate>
-      <guid>http://localhost:1313/art/cat/</guid>
+      <guid>https://example.org/art/cat/</guid>
       <description></description>
     </item>
     <item>
       <title>Lungs</title>
-      <link>http://localhost:1313/art/lungs/</link>
+      <link>https://example.org/art/lungs/</link>
       <pubDate>Wed, 13 Jul 2022 01:35:09 +0100</pubDate>
-      <guid>http://localhost:1313/art/lungs/</guid>
+      <guid>https://example.org/art/lungs/</guid>
       <description></description>
     </item>
     <item>
       <title>Wizard</title>
-      <link>http://localhost:1313/art/lias/</link>
+      <link>https://example.org/art/lias/</link>
       <pubDate>Thu, 16 Jun 2022 16:44:01 +0100</pubDate>
-      <guid>http://localhost:1313/art/lias/</guid>
+      <guid>https://example.org/art/lias/</guid>
       <description></description>
     </item>
     <item>
       <title>Face3</title>
-      <link>http://localhost:1313/art/face3/</link>
+      <link>https://example.org/art/face3/</link>
       <pubDate>Thu, 09 Jun 2022 20:08:03 +0100</pubDate>
-      <guid>http://localhost:1313/art/face3/</guid>
+      <guid>https://example.org/art/face3/</guid>
       <description></description>
     </item>
     <item>
       <title>Windmill</title>
-      <link>http://localhost:1313/art/windmill/</link>
+      <link>https://example.org/art/windmill/</link>
       <pubDate>Wed, 18 May 2022 20:59:41 +0100</pubDate>
-      <guid>http://localhost:1313/art/windmill/</guid>
+      <guid>https://example.org/art/windmill/</guid>
       <description></description>
     </item>
     <item>
       <title>Barman</title>
-      <link>http://localhost:1313/sketch/barman/</link>
+      <link>https://example.org/sketch/barman/</link>
       <pubDate>Fri, 29 Apr 2022 22:23:50 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/barman/</guid>
+      <guid>https://example.org/sketch/barman/</guid>
       <description></description>
     </item>
     <item>
       <title>Pop</title>
-      <link>http://localhost:1313/art/pop/</link>
+      <link>https://example.org/art/pop/</link>
       <pubDate>Tue, 15 Mar 2022 20:05:39 +0100</pubDate>
-      <guid>http://localhost:1313/art/pop/</guid>
+      <guid>https://example.org/art/pop/</guid>
       <description></description>
     </item>
     <item>
       <title>Lias3</title>
-      <link>http://localhost:1313/sketch/lias3/</link>
+      <link>https://example.org/sketch/lias3/</link>
       <pubDate>Wed, 09 Mar 2022 22:20:41 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/lias3/</guid>
+      <guid>https://example.org/sketch/lias3/</guid>
       <description></description>
     </item>
     <item>
       <title>Nordic</title>
-      <link>http://localhost:1313/sketch/nordic/</link>
+      <link>https://example.org/sketch/nordic/</link>
       <pubDate>Fri, 11 Feb 2022 22:25:39 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/nordic/</guid>
+      <guid>https://example.org/sketch/nordic/</guid>
       <description></description>
     </item>
     <item>
       <title>Javid2</title>
-      <link>http://localhost:1313/art/javid2/</link>
+      <link>https://example.org/art/javid2/</link>
       <pubDate>Mon, 17 Jan 2022 22:20:03 +0100</pubDate>
-      <guid>http://localhost:1313/art/javid2/</guid>
+      <guid>https://example.org/art/javid2/</guid>
       <description></description>
     </item>
     <item>
       <title>Windmillsketch</title>
-      <link>http://localhost:1313/sketch/windmillsketch/</link>
+      <link>https://example.org/sketch/windmillsketch/</link>
       <pubDate>Fri, 14 Jan 2022 22:19:24 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/windmillsketch/</guid>
+      <guid>https://example.org/sketch/windmillsketch/</guid>
       <description></description>
     </item>
     <item>
       <title>Bart</title>
-      <link>http://localhost:1313/art/bart/</link>
+      <link>https://example.org/art/bart/</link>
       <pubDate>Fri, 10 Dec 2021 22:21:20 +0100</pubDate>
-      <guid>http://localhost:1313/art/bart/</guid>
+      <guid>https://example.org/art/bart/</guid>
       <description></description>
     </item>
     <item>
       <title>Soldier</title>
-      <link>http://localhost:1313/art/soldier/</link>
+      <link>https://example.org/art/soldier/</link>
       <pubDate>Fri, 03 Dec 2021 22:18:49 +0100</pubDate>
-      <guid>http://localhost:1313/art/soldier/</guid>
+      <guid>https://example.org/art/soldier/</guid>
       <description></description>
     </item>
     <item>
       <title>Garden</title>
-      <link>http://localhost:1313/sketch/garden/</link>
+      <link>https://example.org/sketch/garden/</link>
       <pubDate>Fri, 15 Oct 2021 22:24:21 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/garden/</guid>
+      <guid>https://example.org/sketch/garden/</guid>
       <description></description>
     </item>
     <item>
       <title>Teeth</title>
-      <link>http://localhost:1313/sketch/teeth/</link>
+      <link>https://example.org/sketch/teeth/</link>
       <pubDate>Fri, 15 Oct 2021 22:16:02 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/teeth/</guid>
+      <guid>https://example.org/sketch/teeth/</guid>
       <description></description>
     </item>
     <item>
       <title>Ursoi</title>
-      <link>http://localhost:1313/sketch/ursoi/</link>
+      <link>https://example.org/sketch/ursoi/</link>
       <pubDate>Fri, 24 Sep 2021 01:35:19 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/ursoi/</guid>
+      <guid>https://example.org/sketch/ursoi/</guid>
       <description></description>
     </item>
     <item>
       <title>Hopson</title>
-      <link>http://localhost:1313/sketch/hopson/</link>
+      <link>https://example.org/sketch/hopson/</link>
       <pubDate>Wed, 16 Jun 2021 20:38:18 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/hopson/</guid>
+      <guid>https://example.org/sketch/hopson/</guid>
       <description></description>
     </item>
     <item>
       <title>MoinhoA2</title>
-      <link>http://localhost:1313/art/moinhoa2/</link>
+      <link>https://example.org/art/moinhoa2/</link>
       <pubDate>Wed, 24 Mar 2021 20:46:29 +0100</pubDate>
-      <guid>http://localhost:1313/art/moinhoa2/</guid>
+      <guid>https://example.org/art/moinhoa2/</guid>
       <description></description>
     </item>
     <item>
       <title>Koala</title>
-      <link>http://localhost:1313/sketch/koala/</link>
+      <link>https://example.org/sketch/koala/</link>
       <pubDate>Fri, 12 Mar 2021 20:43:15 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/koala/</guid>
+      <guid>https://example.org/sketch/koala/</guid>
       <description></description>
     </item>
     <item>
       <title>Javid</title>
-      <link>http://localhost:1313/art/javid/</link>
+      <link>https://example.org/art/javid/</link>
       <pubDate>Thu, 11 Mar 2021 20:39:22 +0100</pubDate>
-      <guid>http://localhost:1313/art/javid/</guid>
+      <guid>https://example.org/art/javid/</guid>
       <description></description>
     </item>
     <item>
       <title>Face1</title>
-      <link>http://localhost:1313/art/face1/</link>
+      <link>https://example.org/art/face1/</link>
       <pubDate>Wed, 03 Mar 2021 20:06:16 +0100</pubDate>
-      <guid>http://localhost:1313/art/face1/</guid>
+      <guid>https://example.org/art/face1/</guid>
       <description></description>
     </item>
     <item>
       <title>Daemon</title>
-      <link>http://localhost:1313/art/daemon/</link>
+      <link>https://example.org/art/daemon/</link>
       <pubDate>Wed, 03 Mar 2021 20:05:24 +0100</pubDate>
-      <guid>http://localhost:1313/art/daemon/</guid>
+      <guid>https://example.org/art/daemon/</guid>
       <description></description>
     </item>
     <item>
       <title>Height</title>
-      <link>http://localhost:1313/sketch/height/</link>
+      <link>https://example.org/sketch/height/</link>
       <pubDate>Sun, 28 Feb 2021 20:30:03 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/height/</guid>
+      <guid>https://example.org/sketch/height/</guid>
       <description></description>
     </item>
     <item>
       <title>Hands</title>
-      <link>http://localhost:1313/sketch/hands/</link>
+      <link>https://example.org/sketch/hands/</link>
       <pubDate>Sun, 28 Feb 2021 20:28:01 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/hands/</guid>
+      <guid>https://example.org/sketch/hands/</guid>
       <description></description>
     </item>
     <item>
       <title>Mm</title>
-      <link>http://localhost:1313/art/mm/</link>
+      <link>https://example.org/art/mm/</link>
       <pubDate>Thu, 25 Feb 2021 20:45:43 +0100</pubDate>
-      <guid>http://localhost:1313/art/mm/</guid>
+      <guid>https://example.org/art/mm/</guid>
       <description></description>
     </item>
     <item>
       <title>Dog</title>
-      <link>http://localhost:1313/sketch/dog/</link>
+      <link>https://example.org/sketch/dog/</link>
       <pubDate>Tue, 16 Feb 2021 20:22:03 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/dog/</guid>
+      <guid>https://example.org/sketch/dog/</guid>
       <description></description>
     </item>
     <item>
       <title>Dragon</title>
-      <link>http://localhost:1313/sketch/dragon/</link>
+      <link>https://example.org/sketch/dragon/</link>
       <pubDate>Mon, 15 Feb 2021 20:25:49 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/dragon/</guid>
+      <guid>https://example.org/sketch/dragon/</guid>
       <description></description>
     </item>
     <item>
       <title>Zombie</title>
-      <link>http://localhost:1313/sketch/zombie/</link>
+      <link>https://example.org/sketch/zombie/</link>
       <pubDate>Sat, 13 Feb 2021 22:15:25 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/zombie/</guid>
+      <guid>https://example.org/sketch/zombie/</guid>
       <description></description>
     </item>
     <item>
       <title>Mesa</title>
-      <link>http://localhost:1313/art/mesa/</link>
+      <link>https://example.org/art/mesa/</link>
       <pubDate>Wed, 10 Feb 2021 20:45:19 +0100</pubDate>
-      <guid>http://localhost:1313/art/mesa/</guid>
+      <guid>https://example.org/art/mesa/</guid>
       <description></description>
     </item>
     <item>
       <title>Do_not_touch</title>
-      <link>http://localhost:1313/sketch/do_not_touch/</link>
+      <link>https://example.org/sketch/do_not_touch/</link>
       <pubDate>Fri, 29 Jan 2021 20:18:32 +0100</pubDate>
-      <guid>http://localhost:1313/sketch/do_not_touch/</guid>
+      <guid>https://example.org/sketch/do_not_touch/</guid>
       <description></description>
     </item>
     <item>
       <title>RAT</title>
-      <link>http://localhost:1313/art/rat/</link>
+      <link>https://example.org/art/rat/</link>
       <pubDate>Thu, 19 Nov 2020 20:05:52 +0100</pubDate>
-      <guid>http://localhost:1313/art/rat/</guid>
+      <guid>https://example.org/art/rat/</guid>
       <description></description>
     </item>
     <item>
       <title>King</title>
-      <link>http://localhost:1313/art/king/</link>
+      <link>https://example.org/art/king/</link>
       <pubDate>Fri, 16 Oct 2020 20:05:35 +0100</pubDate>
-      <guid>http://localhost:1313/art/king/</guid>
+      <guid>https://example.org/art/king/</guid>
       <description></description>
     </item>
     <item>
       <title>Painting</title>
-      <link>http://localhost:1313/art/painting/</link>
+      <link>https://example.org/art/painting/</link>
       <pubDate>Tue, 29 Sep 2020 20:47:10 +0100</pubDate>
-      <guid>http://localhost:1313/art/painting/</guid>
+      <guid>https://example.org/art/painting/</guid>
       <description></description>
     </item>
     <item>
       <title>Pmis_reptilian</title>
-      <link>http://localhost:1313/art/pmis_reptilian/</link>
+      <link>https://example.org/art/pmis_reptilian/</link>
       <pubDate>Thu, 10 Sep 2020 20:03:32 +0100</pubDate>
-      <guid>http://localhost:1313/art/pmis_reptilian/</guid>
+      <guid>https://example.org/art/pmis_reptilian/</guid>
       <description></description>
     </item>
   </channel>
