@@ -9,8 +9,8 @@ date = "2014-04-09"
 
 # Tutas
 
-[Art](/projects)
+[Art](/art)
 
-[Projects](/projects)
+[Projects](/project)
 
-[Sketches](/projects)
+[Sketches](/sketch)
