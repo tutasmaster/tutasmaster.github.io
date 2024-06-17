@@ -24,7 +24,7 @@ paginate  = 20
   description = "My new webpage"
   keywords = "homepage, blog"
   images = [""]
-  backgroundImage = "/bg.png"
+  # backgroundImage = "/bg.png"
   backgroundEffects = true
   [[params.social]]
     name = "github"
