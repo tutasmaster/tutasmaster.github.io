@@ -62,9 +62,13 @@ paginate  = 20
     name       = "Art"
     url        = "/art"
   [[menu.main]]
-    identifier = "sketch"
+    identifier = "bart"
     name       = "Sketches"
     url        = "/sketch"
+  [[menu.main]]
+    identifier = "proj"
+    name       = "Projects"
+    url        = "/project"
   [[menu.main]]
     identifier = "old"
     name       = "Old Website"

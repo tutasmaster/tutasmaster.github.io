@@ -7,12 +7,10 @@ date = "2014-04-09"
 
 ![Avatar](/avatar.png)
 
-# Projects
+# Tutas
 
-[Cember Generator (WebGL)](/_bak/projects/cember/)
+[Art](/projects)
 
-[Cember Generator (Canvas)](/_bak/projects/cemby/)
+[Projects](/projects)
 
-[Conway's Game of Life](/_bak/projects/cgol/)
-
-[Maze Generator](/_bak/projects/mazegenerator/mazeindex.html)
+[Sketches](/projects)

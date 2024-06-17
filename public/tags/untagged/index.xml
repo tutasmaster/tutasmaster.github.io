@@ -73,6 +73,13 @@
       <description></description>
     </item>
     <item>
+      <title>olcPoker</title>
+      <link>http://localhost:1313/project/olcpoker/</link>
+      <pubDate>Thu, 17 Aug 2023 00:36:00 +0100</pubDate>
+      <guid>http://localhost:1313/project/olcpoker/</guid>
+      <description>Find it here!&#xA;Networked Poker game made in Godot using the built-in networking tools.&#xA;Running over ENET, using RPCs for synchronizing the whole game&amp;rsquo;s state.</description>
+    </item>
+    <item>
       <title>Beaver</title>
       <link>http://localhost:1313/art/beaver/</link>
       <pubDate>Fri, 28 Jul 2023 21:09:23 +0100</pubDate>
