@@ -19,6 +19,3 @@ featuredImage: "/wooper.png"
 ---
 
 Unfinished projects and quick pictures.
-
-
-The stuff I am not as proud to [show off](/art).

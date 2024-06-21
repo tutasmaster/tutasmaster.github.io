@@ -1,9 +1,10 @@
 ---
-title: "gnUNO"
+title: "(GODOT) gnUNO"
 date: 2023-12-16T16:03:05+01:00
 draft: true
 toc: false
 images:
+preview: networked UNO game made in Godot with a physical twist
 tags:
   - gamedev
 categories:

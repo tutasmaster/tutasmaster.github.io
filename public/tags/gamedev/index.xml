@@ -17,14 +17,14 @@
       <description></description>
     </item>
     <item>
-      <title>Duat</title>
+      <title>(ART) Duat</title>
       <link>https://example.org/project/duat/</link>
       <pubDate>Fri, 16 Feb 2024 16:03:05 +0100</pubDate>
       <guid>https://example.org/project/duat/</guid>
-      <description>Play it here.&#xA;3D Models and textures for environments.&#xA;First model for the snake boss fight.&#xA;Early version of the snake boss texture.&#xA;Final textured version of the snake boss.</description>
+      <description>Play it here.&#xA;Participation in the DRPGGameJam2024 as an artist, mostly doing 3D environments and final boss 3D model.&#xA;3D Models and textures for environments.&#xA;First model for the snake boss fight.&#xA;Early version of the snake boss texture.&#xA;Final textured version of the snake boss.</description>
     </item>
     <item>
-      <title>gnUNO</title>
+      <title>(GODOT) gnUNO</title>
       <link>https://example.org/project/gnuno/</link>
       <pubDate>Sat, 16 Dec 2023 16:03:05 +0100</pubDate>
       <guid>https://example.org/project/gnuno/</guid>

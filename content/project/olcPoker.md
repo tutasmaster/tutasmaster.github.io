@@ -1,9 +1,10 @@
 ---
-title: "olcPoker"
+title: "(GODOT) olcPoker"
 date: 2023-08-17T00:36:00+01:00
 draft: true
 toc: false
 images:
+preview: networked poker game made in Godot with arbitrary player support
 tags:
   - untagged
 categories:

@@ -19,6 +19,3 @@ featuredImage: "/wooper.png"
 ---
 
 Cool things that took effort.
-
-For low effort content check out [sketches](/sketch)!
-
