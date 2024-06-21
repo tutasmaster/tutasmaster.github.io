@@ -5,6 +5,7 @@ draft: true
 toc: false
 images:
 preview: networked lockstep game with ENET
+altLink: https://github.com/tutasmaster/multiplayer-snake-cpp
 tags:
   - untagged
 categories:

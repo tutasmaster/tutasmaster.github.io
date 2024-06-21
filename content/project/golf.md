@@ -5,6 +5,7 @@ draft: true
 toc: false
 images:
 preview: 3d game with wind and spin physics
+altLink: https://tutasmaster.itch.io/poc-golf-game
 tags:
   - untagged
 categories:

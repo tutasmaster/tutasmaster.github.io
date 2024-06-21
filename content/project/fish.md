@@ -5,6 +5,7 @@ draft: true
 toc: false
 images:
 preview: quick minigame made in PICO-8 with art, code and sound.
+altLink: https://tutasmaster.itch.io/sardine-catcher
 tags:
   - untagged
 categories:
