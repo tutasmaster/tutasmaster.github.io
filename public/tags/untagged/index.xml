@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 17 Jun 2024 13:46:37 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jul 2024 23:16:44 +0100</lastBuildDate>
     <atom:link href="https://example.org/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(GODOT) Woop Skate</title>
+      <link>https://example.org/project/skate/</link>
+      <pubDate>Sat, 06 Jul 2024 23:16:44 +0100</pubDate>
+      <guid>https://example.org/project/skate/</guid>
+      <description>Get it here!&#xA;Find the source code here!&#xA;Tony hawk physics inspired system, made with the intention of learning how to implement similar game mechanics.&#xA;Relies mostly on raycasts for handling collision and physics resolution. This project was made as an exercise in making a character controller and achieving arcade physics.&#xA;Features (some might only exist in git) Tricks: Ollies Flips Grinds Manuals Extensions to Manuals and Grinds Wallplants Spine Transfers Acid Drops Vert Gameplay Scoring Balance Meter Debug menu for modifying/saving all of the physics constants Character States The character is built of the following states:</description>
+    </item>
     <item>
       <title>(PICO-8) Sardine Catcher</title>
       <link>https://example.org/project/fish/</link>
