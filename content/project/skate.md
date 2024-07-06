@@ -4,7 +4,7 @@ date: 2024-07-06T23:16:44+01:00
 draft: true
 toc: false
 images:
-preview: Recreation of Tony Hawk physics using raycasts.
+preview: recreation of Tony Hawk physics using raycasts.
 tags:
   - untagged
 categories:
