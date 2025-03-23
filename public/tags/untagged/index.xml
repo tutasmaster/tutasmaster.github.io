@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 01 Feb 2025 19:44:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Mar 2025 17:50:16 +0000</lastBuildDate>
     <atom:link href="https://example.org/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cat2</title>
+      <link>https://example.org/art/cat2/</link>
+      <pubDate>Sun, 23 Mar 2025 17:50:16 +0000</pubDate>
+      <guid>https://example.org/art/cat2/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Oil</title>
       <link>https://example.org/art/oil/</link>
@@ -21,6 +28,34 @@
       <link>https://example.org/art/vasco/</link>
       <pubDate>Sat, 01 Feb 2025 19:40:51 +0000</pubDate>
       <guid>https://example.org/art/vasco/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Car</title>
+      <link>https://example.org/art/car/</link>
+      <pubDate>Thu, 23 Jan 2025 17:53:39 +0000</pubDate>
+      <guid>https://example.org/art/car/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mill2</title>
+      <link>https://example.org/art/mill2/</link>
+      <pubDate>Thu, 23 Jan 2025 17:53:29 +0000</pubDate>
+      <guid>https://example.org/art/mill2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mill</title>
+      <link>https://example.org/art/mill/</link>
+      <pubDate>Thu, 23 Jan 2025 17:50:03 +0000</pubDate>
+      <guid>https://example.org/art/mill/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Place</title>
+      <link>https://example.org/art/place/</link>
+      <pubDate>Thu, 23 Jan 2025 17:49:58 +0000</pubDate>
+      <guid>https://example.org/art/place/</guid>
       <description></description>
     </item>
     <item>
